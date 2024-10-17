@@ -1,0 +1,26 @@
+.wrapper {
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
+
+.chatHeader {
+    height: 100px;
+    background-color: #29296e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.messagesWrapper {
+    height: 500px;
+    overflow-y: auto;
+    display: flex;
+    justify-content: flex-start;
+    row-gap: 20px;
+    flex-direction: column;
+    padding: 20px 10px;
+}
